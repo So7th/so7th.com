@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="es-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+                    <meta name="robots" content="index,follow">
+                                <link rel="shortcut icon" href="https://assets.jwwb.nl/assets/brand/webador/icon/favicon.ico?bust=1aa7636a79018ede643c">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://assets.jwwb.nl/assets/brand/webador/icon/favicon-16x16.png?bust=9d1ae200bcbfaf2b29de">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://assets.jwwb.nl/assets/brand/webador/icon/favicon-32x32.png?bust=ef978256b04a704f154a">
+        <link rel="mask-icon" color="#3194d0" href="https://assets.jwwb.nl/assets/brand/webador/icon/safari-pinned-tab.svg?bust=b5933ac03ce03714460d">
+                <meta name="theme-color" content="#373f43">
+        <meta name="apple-mobile-web-app-title" content="Webador">
+        <meta name="application-name" content="Webador">
+                <meta name="msapplication-TileColor" content="#f7f5f0">
+        <meta name="msapplication-TileImage" content="https://assets.jwwb.nl/assets/brand/webador/icon/mstile-144x144.png?bust=b18af7d2f7471b52c6c9">
+        <meta name="msapplication-config" content="https://assets.jwwb.nl/assets/brand/webador/icon/browserconfig.xml?bust=c3785c4f6808e266741a">
+                <link rel="apple-touch-icon" sizes="180x180" href="https://assets.jwwb.nl/assets/brand/webador/icon/apple-touch-icon.png?bust=35e3cf6e31e25a61c4d3">
+        <script nonce="ba64ebd11830d6178bde4572651c1d08">
+            window.JOUWWEB = window.JOUWWEB || {};
+            window.JOUWWEB.application = window.JOUWWEB.application || {};
+            window.JOUWWEB.application = {"backends":[{"domain":"jouwweb.nl","freeDomain":"jouwweb.site"},{"domain":"webador.com","freeDomain":"webadorsite.com"},{"domain":"webador.de","freeDomain":"webadorsite.com"},{"domain":"webador.fr","freeDomain":"webadorsite.com"},{"domain":"webador.es","freeDomain":"webadorsite.com"},{"domain":"webador.it","freeDomain":"webadorsite.com"},{"domain":"jouwweb.be","freeDomain":"jouwweb.site"},{"domain":"webador.ie","freeDomain":"webadorsite.com"},{"domain":"webador.co.uk","freeDomain":"webadorsite.com"},{"domain":"webador.at","freeDomain":"webadorsite.com"},{"domain":"webador.be","freeDomain":"webadorsite.com"},{"domain":"webador.ch","freeDomain":"webadorsite.com"},{"domain":"webador.ch","freeDomain":"webadorsite.com"},{"domain":"webador.mx","freeDomain":"webadorsite.com"},{"domain":"webador.com","freeDomain":"webadorsite.com"},{"domain":"webador.dk","freeDomain":"webadorsite.com"},{"domain":"webador.se","freeDomain":"webadorsite.com"},{"domain":"webador.no","freeDomain":"webadorsite.com"},{"domain":"webador.fi","freeDomain":"webadorsite.com"},{"domain":"webador.ca","freeDomain":"webadorsite.com"},{"domain":"webador.ca","freeDomain":"webadorsite.com"},{"domain":"webador.pl","freeDomain":"webadorsite.com"},{"domain":"webador.com.au","freeDomain":"webadorsite.com"},{"domain":"webador.nz","freeDomain":"webadorsite.com"}],"editorLocale":"es-US","editorTimezone":"America\/New_York","editorLanguage":"es","analytics4TrackingId":"G-E6PZPGE4QM","analyticsDimensions":[],"backendDomain":"www.webador.es","backendShortDomain":"webador.es","backendKey":"webador-es","freeWebsiteDomain":"webadorsite.com","noSsl":false,"build":{"reference":"adb894d770d"},"linkHostnames":["www.jouwweb.nl","www.webador.com","www.webador.de","www.webador.fr","www.webador.es","www.webador.it","www.jouwweb.be","www.webador.ie","www.webador.co.uk","www.webador.at","www.webador.be","www.webador.ch","fr.webador.ch","www.webador.mx","es.webador.com","www.webador.dk","www.webador.se","www.webador.no","www.webador.fi","www.webador.ca","fr.webador.ca","www.webador.pl","www.webador.com.au","www.webador.nz"],"assetsUrl":"https:\/\/assets.jwwb.nl","loginUrl":"https:\/\/es.webador.com\/iniciar-sesion","publishUrl":null,"adminUserOrIp":false,"currency":"USD","hcUrl":{"add-product-variants":"https:\/\/help.webador.com\/hc\/es\/articles\/29426751649809","basic-vs-advanced-shipping":"https:\/\/help.webador.com\/hc\/es\/articles\/29426731685777","html-in-head":"https:\/\/help.webador.com\/hc\/es\/articles\/29426689990033","link-domain-name":"https:\/\/help.webador.com\/hc\/es\/articles\/29426688803345","optimize-for-mobile":"https:\/\/help.webador.com\/hc\/es\/articles\/29426707033617","seo":"https:\/\/help.webador.com\/hc\/es\/categories\/29387178511377","transfer-domain-name":"https:\/\/help.webador.com\/hc\/es\/articles\/29426715688209","website-not-secure":"https:\/\/help.webador.com\/hc\/es\/articles\/29426706659729"}};
+            window.JOUWWEB.brand = {"type":"webador","name":"Webador","domain":"Webador.com","supportEmail":"soporte@webador.es"};
+        </script>
+                <link rel="manifest" href="manifest.json">
+                                                <script nonce='ba64ebd11830d6178bde4572651c1d08'>
+                window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}
+            
+gtag('consent', 'default', {"ad_storage":"denied","analytics_storage":"denied","ad_user_data":"denied","ad_personalization":"denied"});
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '/metrics/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');
+            n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-M4STXF27');
+            
+</script>                <title>Términos y condiciones | Webador.com</title>
+<script src="https://assets.jwwb.nl/assets/editor-i18n/es-US.js?bust=2d07b000dfaf4450f168" nonce="ba64ebd11830d6178bde4572651c1d08" data-turbo-track="reload"></script>
+<script src="https://assets.jwwb.nl/assets/landing/runtime.2c030a97cf55064af804.js?bust=f5fa1f875d3d8144e614" nonce="ba64ebd11830d6178bde4572651c1d08" data-turbo-track="reload"></script>
+<script src="https://assets.jwwb.nl/assets/landing/872.c4c24312fd4f2d45da02.js?bust=2f999d3700d08d58c9a3" nonce="ba64ebd11830d6178bde4572651c1d08" data-turbo-track="reload"></script>
+<script src="https://assets.jwwb.nl/assets/landing/main.fa8780ba75d866770feb.js?bust=476545509c32d972219b" nonce="ba64ebd11830d6178bde4572651c1d08" data-turbo-track="reload"></script>
+<link rel="preload" href="https://assets.jwwb.nl/assets/landing/main.46a94ad72c7613cb65da.css?bust=11d2b9e8543dbc03334e" as="style">
+<link rel="preload" href="https://assets.jwwb.nl/assets/landing/fonts/ProximaNovaRegular/font.woff2?bust=9886f543adf78646f3dd" as="font" crossorigin>
+<link rel="preload" href="https://assets.jwwb.nl/assets/landing/fonts/ProximaNovaSemibold/font.woff2?bust=e083928cc285cf8ab829" as="font" crossorigin>
+<link rel="preload" href="https://assets.jwwb.nl/assets/landing/fonts/ProximaNovaBold/font.woff2?bust=747b285e6eddba47ba98" as="font" crossorigin>
+<link rel="preload" href="https://assets.jwwb.nl/assets/landing/fonts/icons-landing/font/fontello.woff2?bust=d18e19447761eb445b59" as="font" crossorigin>
+<script nonce="ba64ebd11830d6178bde4572651c1d08">window.JOUWWEB = window.JOUWWEB || {}; window.JOUWWEB.landing = {"category":"website","route":"landing\/terms-conditions"};</script>
+<meta name="og:image" content="https://assets.jwwb.nl/assets/brand/webador/logo/social-image.png?bust=b08f3607aed505a159de">
+<meta name="og:site_name" content="Crear una Web - Webador">
+<meta name="fb_app_id" content="260227593988159">
+<link rel="canonical" href="terms-and-conditions.html">
+<link rel="alternate" hreflang="nl" href="https://www.jouwweb.nl/algemene-voorwaarden">
+<link rel="alternate" hreflang="en" href="../www.webador.com/condiciones-generales.html">
+<link rel="alternate" hreflang="de" href="https://www.webador.de/agb">
+<link rel="alternate" hreflang="fr" href="https://www.webador.fr/conditions-generales">
+<link rel="alternate" hreflang="es" href="https://www.webador.es/condiciones-generales">
+<link rel="alternate" hreflang="it" href="https://www.webador.it/termini-e-condizioni-generali">
+<link rel="alternate" hreflang="nl-NL" href="https://www.jouwweb.nl/algemene-voorwaarden">
+<link rel="alternate" hreflang="en-US" href="../www.webador.com/condiciones-generales.html">
+<link rel="alternate" hreflang="de-DE" href="https://www.webador.de/agb">
+<link rel="alternate" hreflang="fr-FR" href="https://www.webador.fr/conditions-generales">
+<link rel="alternate" hreflang="es-ES" href="https://www.webador.es/condiciones-generales">
+<link rel="alternate" hreflang="it-IT" href="https://www.webador.it/termini-e-condizioni-generali">
+<link rel="alternate" hreflang="nl-BE" href="https://www.jouwweb.be/algemene-voorwaarden">
+<link rel="alternate" hreflang="en-IE" href="https://www.webador.ie/terms-and-conditions">
+<link rel="alternate" hreflang="en-GB" href="https://www.webador.co.uk/terms-and-conditions">
+<link rel="alternate" hreflang="de-AT" href="https://www.webador.at/agb">
+<link rel="alternate" hreflang="fr-BE" href="https://www.webador.be/conditions-generales">
+<link rel="alternate" hreflang="de-CH" href="https://www.webador.ch/agb">
+<link rel="alternate" hreflang="fr-CH" href="https://fr.webador.ch/conditions-generales">
+<link rel="alternate" hreflang="es-MX" href="https://www.webador.mx/condiciones-generales">
+<link rel="alternate" hreflang="es-US" href="terms-and-conditions.html">
+<link rel="alternate" hreflang="da-DK" href="https://www.webador.dk/terms-and-conditions">
+<link rel="alternate" hreflang="sv-SE" href="https://www.webador.se/terms-and-conditions">
+<link rel="alternate" hreflang="nb-NO" href="https://www.webador.no/terms-and-conditions">
+<link rel="alternate" hreflang="fi-FI" href="https://www.webador.fi/terms-and-conditions">
+<link rel="alternate" hreflang="en-CA" href="https://www.webador.ca/terms-and-conditions">
+<link rel="alternate" hreflang="fr-CA" href="https://fr.webador.ca/conditions-generales">
+<link rel="alternate" hreflang="pl-PL" href="https://www.webador.pl/terms-and-conditions">
+<link rel="alternate" hreflang="en-AU" href="https://www.webador.com.au/terms-and-conditions">
+<link rel="alternate" hreflang="en-NZ" href="https://www.webador.nz/terms-and-conditions">
+<script nonce="ba64ebd11830d6178bde4572651c1d08">window.documentCreatedTime = (new Date()).getTime();</script>
+<link rel="preconnect" href="https://assets.jwwb.nl">
+<link rel="stylesheet" type="text/css" href="https://assets.jwwb.nl/assets/landing/main.46a94ad72c7613cb65da.css?bust=11d2b9e8543dbc03334e" nonce="ba64ebd11830d6178bde4572651c1d08" data-turbo-track="dynamic">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<script src="v2/api/logged-in" nonce="ba64ebd11830d6178bde4572651c1d08" data-turbo-track="reload"></script>
+<script nonce="ba64ebd11830d6178bde4572651c1d08">LUX=function(){function n(){return Date.now?Date.now():+new Date}var r,e=n(),t=window.performance||{},a=t.timing||{navigationStart:(null===(r=window.LUX)||void 0===r?void 0:r.ns)||e};function o(){return t.now?(r=t.now(),Math.floor(r)):n()-a.navigationStart;var r}(LUX=window.LUX||{}).ac=[],LUX.addData=function(n,r){return LUX.cmd(["addData",n,r])},LUX.cmd=function(n){return LUX.ac.push(n)},LUX.getDebug=function(){return[[e,0,[]]]},LUX.init=function(){return LUX.cmd(["init"])},LUX.mark=function(){for(var n=[],r=0;r<arguments.length;r++)n[r]=arguments[r];if(t.mark)return t.mark.apply(t,n);var e=n[0],a=n[1]||{};void 0===a.startTime&&(a.startTime=o());LUX.cmd(["mark",e,a])},LUX.markLoadTime=function(){return LUX.cmd(["markLoadTime",o()])},LUX.measure=function(){for(var n=[],r=0;r<arguments.length;r++)n[r]=arguments[r];if(t.measure)return t.measure.apply(t,n);var e,a=n[0],i=n[1],u=n[2];e="object"==typeof i?n[1]:{start:i,end:u};e.duration||e.end||(e.end=o());LUX.cmd(["measure",a,e])},LUX.send=function(){return LUX.cmd(["send"])},LUX.ns=e;var i=LUX;if(window.LUX_ae=[],window.addEventListener("error",(function(n){window.LUX_ae.push(n)})),window.LUX_al=[],"function"==typeof PerformanceObserver&&"function"==typeof PerformanceLongTaskTiming){var u=new PerformanceObserver((function(n){for(var r=n.getEntries(),e=0;e<r.length;e++)window.LUX_al.push(r[e])}));try{u.observe({type:"longtask"})}catch(n){}}return i}();</script>
+<script nonce="ba64ebd11830d6178bde4572651c1d08">LUX.label = "landing\/terms-conditions";</script>
+<script src="https://cdn.speedcurve.com/js/lux.js?id=4341063001" nonce="ba64ebd11830d6178bde4572651c1d08" data-turbo-track="reload" async defer crossorigin="anonymous"></script>    </head>
+    <body
+        class="navbar-is-fixed navbar-is-scrolling menu-is-collapsed is-no-touch-device is-desktop"
+        data-backend-url="https://www.webador.es"
+        data-default-locale="es-US"
+        data-jw-controller="common--tooltip--manager common--analytics--track landing--cookie-consent" data-jw-action="common--analytics--track:connect-&gt;common--analytics--track#trackPageView common--analytics--track:connect-&gt;common--analytics--track#trackEvents" data-common--analytics--track-page-name-param="landing/terms-conditions" data-common--analytics--track-events-param="[]" data-landing--cookie-consent-auto-open-value="true" data-landing--cookie-consent-options-value="{&quot;theme&quot;:&quot;popup&quot;,&quot;showLink&quot;:true,&quot;type&quot;:&quot;opt-in&quot;,&quot;content&quot;:{&quot;header&quot;:&quot;Tus preferencias de cookies&quot;,&quot;message&quot;:&quot;Nosotros y nuestros socios comerciales (34) utilizamos cookies para personalizar el contenido y los anuncios, y para analizar nuestro tr\u00e1fico.&lt;br\/&gt;&lt;br\/&gt;Puedes retirar tu consentimiento en cualquier momento ajustando tus preferencias en nuestra p\u00e1gina de privacidad, donde tambi\u00e9n puedes leer m\u00e1s sobre c\u00f3mo utilizamos las cookies y procesamos los datos personales.&quot;,&quot;allow&quot;:&quot;Aceptar&quot;,&quot;deny&quot;:&quot;Rechazar&quot;,&quot;link&quot;:&quot;M\u00e1s informaci\u00f3n \u00bb&quot;,&quot;href&quot;:&quot;\/privacidad#cookie-consent-management&quot;},&quot;layouts&quot;:{&quot;small&quot;:&quot;{{messagelink}}{{compliance}}{{link}}&quot;},&quot;autoOpen&quot;:true,&quot;position&quot;:&quot;top-left&quot;,&quot;layout&quot;:&quot;basic-header&quot;,&quot;cookie&quot;:{&quot;name&quot;:&quot;cookieconsent_status&quot;}}"    >
+                
+            <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://es.webador.com/metrics/ns.html?id=GTM-M4STXF27"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+                            
+<header
+    class="navbar navbar--style-default"
+    data-jw-controller="common--analytics--track" data-common--analytics--track-section-name-value="header">
+        <div class="navbar-bg">
+        <div class="container">
+            <div class="navbar-group navbar-group--left">
+                <div class="navbar-head">
+                    <h4 class="mt-0 mb-0 navbar-logo">
+                        <a
+                            class="navbar-brand"
+                            href="index.html"
+                        >
+                            <img src="https://assets.jwwb.nl/assets/brand/webador/logo/logo-light.svg?bust=0e2462f19777ad7c3288" alt="Webador" class="no-load" width="150" height="32">                        </a>
+                    </h4>
+                                            <a class="navbar-toggle" href="login.html">
+                            <span class="navbar-toggle__label is-visible-logged-out">Iniciar sesión</span>
+                            <span class="navbar-toggle__label is-visible-logged-in">Cuenta</span>
+                            <span class="icon icon-user" style="font-size: 1.5rem;"></span>
+                        </a>
+                                        <button aria-label="Menú" class="navbar-toggle navbar-toggle--menu">
+                        <span class="navbar-toggle__label">Menu</span>
+                        <span class="icon icon-menu"></span>
+                    </button>
+                </div>
+                <nav>
+                    <ul class="navbar-nav">
+                        <li class="dropdown ">
+                            <button class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+                                <span class="icon icon-tags"></span>
+                                Productos                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="website.html">Página web</a></li>
+                                <li>
+                                    <a href="create-online-store.html">
+                                        Negocio online                                    </a>
+                                </li>
+                                <li>
+                                    <a href="domains.html">Dominio</a>
+                                </li>
+                                <li><a href="own-email-domain.html">Correo electrónico</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="navbar-nav-link" href="how-it-works.html">
+                                <span class="icon icon-star"></span>
+                                Cómo funciona                            </a>
+                        </li>
+                                                <li class="">
+                            <a href="examples.html"
+                               class="navbar-nav-link hidden-sm">
+                                <span class="icon icon-newspaper"></span>
+                                Ejemplos                            </a>
+                        </li>
+                        <li class="">
+                            <a class="navbar-nav-link" href="pricing.html">
+                                <span class="icon icon-tags"></span>
+                                Precios                            </a>
+                        </li>
+                                                                                                    <li class="navbar-nav-help hidden-sm hidden-xs">
+                                <a class="navbar-nav-link" target="_blank" rel="noopener"
+                                   href="https://help.webador.com/hc/es">
+                                    <span class="icon icon-star"></span>
+                                                                            Centro de ayuda                                                                    </a>
+                            </li>
+                                            </ul>
+                </nav>
+            </div>
+            <div class="navbar-group navbar-group--right is-visible-logged-out is-last-child--logged-out">
+                                    <a class="navbar-nav-link hidden-xs" href="login.html">
+                        <span class="icon icon-user"></span>
+                        Iniciar sesión                    </a>
+                                <button
+                    class="navbar-nav-signup btn btn-success btn--inverse"
+                    data-open-js-modal="signup"
+                    data-jw-action="click-&gt;common--analytics--track#trackEvent" data-common--analytics--track-name-param="button_click" data-common--analytics--track-event-action-param="get-started" data-common--analytics--track-event-label-param="Empezar ahora" data-common--analytics--track-event-value-param="null" data-common--analytics--track-parameters-param="[]"                >
+                    Empezar ahora                </button>
+            </div>
+            <div class="navbar-group navbar-group--right is-visible-logged-in--flex is-last-child--logged-in">
+                                <a
+                    class="btn btn-primary btn--inverse navbar-nav-signup text-center"
+                    href="v2/dashboard.html"
+                    data-jw-action="click-&gt;common--analytics--track#trackEvent" data-common--analytics--track-name-param="button_click" data-common--analytics--track-event-action-param="my-account" data-common--analytics--track-event-label-param="Mi cuenta" data-common--analytics--track-event-value-param="null" data-common--analytics--track-parameters-param="[]"                >
+                    Mi cuenta                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="section section--colored align-left">
+    <div class="container container--narrow">
+        <h1 class="heading-section">Webador condiciones</h1>
+        <p>El servicio "Webador" se ofrece a través de Internet por JouwWeb B.V. como un servicio online (Software as a Service). Los siguientes términos y condiciones se aplican al uso de Webador. Al utilizar Webador, usted acepta implícitamente dichos términos y condiciones.</p>
+        <p>Cualquier desviación de estas condiciones sólo será vinculante si es aceptada por escrito por Webador.</p>
+        <p>
+            &raquo; Lea nuestra <a href="privacy.html">Declaración de privacidad</a><br/>
+            &raquo; El <a href="terms-and-conditions.html#acuerdo de tratamiento de datos">acuerdo de procesamiento de datos</a> (Anexo 1) está inextricablemente ligado a estas condiciones.        </p>
+    </div>
+</div>
+<div class="section align-left">
+    <div class="container container--narrow">
+        <h2 class="mt-0">Artículo 1. Uso del servicio</h2>
+        <p>1.1 Con Webador, puede crear y publicar <a href="index.html">su propia página web</a>. El servicio le permite editar de forma independiente el diseño de su página web y crear su propio contenido.</p>
+        <p>1.2 Es necesario registrarse para utilizar Webador. Una vez completado el registro, puede acceder inmediatamente a su cuenta y utilizar el servicio.</p>
+        <p>1.3 Debe proteger el acceso a su cuenta de personas no autorizadas mediante el nombre de usuario y la contraseña. En particular, debe mantener la contraseña estrictamente confidencial. Webador puede asumir que todo lo que ocurre desde su cuenta después de iniciar sesión con su nombre de usuario y contraseña, ocurre bajo su dirección y supervisión. Por lo tanto, usted es responsable de todas esas acciones, a menos que haya informado a Webador de que otra persona conoce su contraseña.</p>
+        <h2>Artículo 2. Condiciones de uso del servicio</h2>
+        <p>2.1 Se prohíbe el uso de Webador para acciones que contravengan la legislación neerlandesa o cualquier otra ley o normativa aplicable. Esto incluye, entre otros asuntos, el uso del servicio para almacenar y distribuir información calumniosa, difamatoria o racista.</p>
+        <p>2.2 También está prohibido utilizar Webador para compartir o distribuir materiales que:</p>
+        <ul>
+            <li>violar los derechos de autor, o incluir hipervínculos a dicha información</li>
+            <li>Ayudar a otros a violar los derechos de terceros, por ejemplo, enlazando con herramientas de piratería informática o explicando los delitos informáticos de forma que se facilite al lector la realización de la conducta delictiva descrita en lugar de defenderse de ella</li>
+            <li>violar la privacidad de terceros, por ejemplo, distribuyendo datos personales de terceros sin razón o permiso o acosando repetidamente a terceros con comunicaciones no deseadas</li>
+            <li>tener un comportamiento claramente calumnioso, difamatorio, insultante, racista o discriminatorio, o un discurso de odio</li>
+            <li>contener comunicaciones comerciales no solicitadas, incluyendo, pero sin limitarse a ello, paginas web claramente destinadas a promocionar otras páginas web</li>
+            <li>contener contenidos maliciosos, como virus o programas espía</li>
+        </ul>
+        <p>y cualquier otro aspecto que se considere contrario a la netiqueta.</p>
+        <p>2.3 Si Webador comprueba que un usuario ha violado las condiciones anteriores o recibe una queja alegando tal hecho, Webador podrá intervenir para frenar dicha violación.</p>
+        <p>2.4 Si Webador considera que el funcionamiento continuado de los sistemas informáticos o de la red operada por Webador o por terceros está realmente o bajo amenaza de ser dañado o puesto en peligro, por ejemplo debido a la transmisión excesiva de datos, a la filtración de datos personales o a la actividad de virus, Webador podrá tomar todas las medidas que considere razonablemente necesarias para detener o evitar dicho daño o peligro.</p>
+        <p>2.5 Webador se reserva el derecho de presentar una denuncia penal por cualquier delito cometido a través o utilizando su servicio.</p>
+        <p>2.6 Webador se reserva el derecho de recuperar cualquier daño incurrido como resultado de una violación de estas condiciones de uso. Por la presente, usted indemniza a Webador por cualquier reclamación de terceros relacionada con los daños incurridos como resultado de una violación de estas condiciones de uso.</p>
+        <p>2.7 No se aplican máximos explícitos a los contenidos, el espacio de almacenamiento o el tráfico de datos, a menos que se acuerde lo contrario. Si el cliente hace un uso excesivo y frecuente, Webador se pondrá en contacto con el cliente para llegar a un acuerdo adecuado.</p>
+        <p>2.8 No está permitido ocultar o bloquear los anuncios de las páginas web gratuitas por Webador.</p>
+        <h2 class="h2">Artículo 3. Disponibilidad y mantenimiento</h2>
+        <p>3.1 Webador se esforzará en todo momento por proporcionar una disponibilidad de alta calidad e ininterrumpida. Sin embargo, Webador no puede ofrecer ninguna garantía en cuanto a la calidad o la disponibilidad.</p>
+        <p>3.2 Webador mantiene de manera activa el servicio de Webador. Si se espera que el mantenimiento suponga una limitación de la disponibilidad, Webador llevará a cabo dicho mantenimiento cuando el uso del servicio sea bajo. El mantenimiento se anuncia con antelación siempre que sea posible. El mantenimiento relacionado con emergencias puede llevarse a cabo en cualquier momento sin previo aviso.</p>
+        <p>3.3 Webador puede ajustar en ocasiones las funcionalidades de Webador. Aunque los comentarios y sugerencias de los usuarios son bienvenidos, Webador decide en última instancia qué cambios se harán y cuáles no. Es posible que dichos cambios afecten al funcionamiento de su página web.</p>
+        <p>3.4 En algunos casos, Webador puede tratar los datos personales de sus clientes. Para regular mejor el reparto de funciones y las obligaciones asociadas, se establecen disposiciones en el apéndice 1 de estos términos y condiciones.</p>
+        <h2 class="h2">Artículo 4. Propiedad Intelectual</h2>
+        <p>4.1 El servicio de Webador y el software asociado, así como toda la información e imágenes almacenadas en la página web, están protegidos por los derechos de propiedad intelectual de Webador y no pueden ser copiados o utilizados de ninguna manera sin el permiso por escrito de Webador, excepto cuando y en la medida en que lo permita la legislación obligatoria.</p>
+        <p>4.2 La información almacenada o procesada por usted a través del servicio es y sigue siendo de su propiedad (o de la de sus proveedores). Webador se reserva un derecho limitado a utilizar esta información para su servicio, incluso para aspectos futuros del mismo. Usted puede revocar este derecho de uso eliminando la información pertinente y/o rescindiendo el acuerdo.</p>
+        <p>4.3 Si envía información a Webador, por ejemplo, un informe de error o una sugerencia de mejora, concede a Webador una licencia perpetua e ilimitada para utilizar esta información para su servicio. Esto no se aplica a la información que usted marque explícitamente como confidencial.</p>
+        <p>4.4 Webador se abstendrá de acceder a los datos que usted almacene y/o distribuya a través de Webador, a menos que sea necesario para la adecuada prestación del servicio o que Webador se vea obligado a hacerlo por ley o por orden judicial. En estos casos, Webador se esforzará por limitar el acceso a la información en la medida de lo posible, siempre que esté dentro de su control.</p>
+        <h2 class="h2">Artículo 5. Precios</h2>
+        <p>5.1 El plan gratuito de Webador no tiene costes asociados. Con el fin de seguir ofreciendo este servicio de forma gratuita, Webador se reserva el derecho de mostrar anuncios de patrocinadores en la página web del cliente.</p>
+        <p>5.2 La compra de una suscripción de pago Webador está sujeta a un pago mensual o anual. Los pagos anuales son siempre exigibles al inicio de este periodo, mientras que las cuotas mensuales se cobran de manera automática, salvo que se acuerde lo contrario.</p>
+        <p>5.3 A menos que se indique explícitamente lo contrario, todos los precios estipulados por Webador no incluyen el IVA ni ningún otro impuesto gubernamental.</p>
+        <p>5.4 Los pagos pueden ser transferidos manualmente a la cuenta bancaria de Webador, a través de tarjeta de crédito, PayPal, o de acuerdo con las instrucciones de pago de la página web</p>
+        <p>5.5 Dado que el servicio se presta directamente y a petición explícita del usuario, no es posible cancelar un pago invocando la Ley de Venta a distancia.</p>
+        <h2>Artículo 6. Pago</h2>
+        <p>6.1 Webador facturará electrónicamente al cliente los importes que éste le adeude.</p>
+        <p>6.2 El Cliente debe pagar la factura en un plazo de 14 días a partir de la fecha de la misma, salvo que se acuerde lo contrario por escrito.</p>
+        <p>6.3 Si el cliente no ha pagado una factura en su totalidad después de los 14 días siguientes a la fecha de la factura, entrará de manera automática en mora sin necesidad de aviso.</p>
+        <p>6.4 Si el cliente se encuentra en situación de impago, las páginas web alojadas para el cliente podrán quedar inaccesibles hasta que se hayan abonado los importes atrasados.</p>
+        <h2>Artículo 7. Limitación de la responsabilidad</h2>
+        <p>7.1 Salvo en caso de falta intencionada o negligencia grave, la responsabilidad de Webador se limita al importe pagado por usted durante los 6 meses anteriores al suceso que dio lugar a los daños.</p>
+        <p>7.2 Webador no se hace responsable en ningún caso de los daños indirectos, los daños consecuentes, la pérdida de beneficios, la pérdida de ahorros o los daños debidos a la interrupción de las operaciones comerciales.</p>
+        <p>7.3 El derecho a la indemnización sólo será válido si los daños se comunican por escrito a Webador en un plazo máximo de dos meses desde su descubrimiento.</p>
+        <p>7.4 En caso de fuerza mayor, Webador no está obligado en ningún momento a pagar una indemnización al cliente por los daños sufridos por éste. La fuerza mayor incluye interrupciones o fallos de la infraestructura de Internet o de las telecomunicaciones, cortes de energía, disturbios internos, movilizaciones, guerras, bloqueos de transporte, huelgas, exclusiones, interrupciones de la actividad comercial, interrupciones de suministro, incendios e inundaciones.</p>
+        <h2>Artículo 8. Solicitud de nombre de dominio</h2>
+        <p>8.1 La solicitud, la asignación y el posible uso de un dominio dependen y están sujetos a las normas y procedimientos aplicables de las autoridades de registro pertinentes, como la ICANN para nombres de dominio .com. La autoridad pertinente decide sobre la asignación de un nombre de dominio. Webador sólo juega un papel de mediador y no puede garantizar que una solicitud también sea aceptada.</p>
+        <p>8.2 El cliente sólo puede cerciorarse del registro basándose en la confirmación de Webador de que el nombre de dominio solicitado ha sido registrado. Una factura por los costes de registro no es una confirmación del registro.</p>
+        <p>8.3 El cliente indemniza a Webador por cualquier daño relacionado con (el uso de) un nombre de dominio en nombre o por parte del cliente. Webador no es responsable de la pérdida del cliente de su(s) derecho(s) a un nombre de dominio o de la eventualidad de que un nombre de dominio sea solicitado y/o adquirido por un tercero entretanto, excepto en caso de intención o negligencia deliberada por parte de Webador.</p>
+        <p>8.4 Webador se reserva el derecho de hacer que un nombre de dominio sea inaccesible o inutilizable, o de ponerlo a su nombre, si el cliente incumple de forma demostrable los términos establecidos en el acuerdo, pero sólo durante el tiempo que el cliente permanezca en mora y exclusivamente después de la expiración de un período de tiempo razonable indicado en una nota de incumplimiento por escrito.</p>
+        <p>8.5 Webador se reserva el derecho de cancelar un nombre de dominio perteneciente al cliente en caso de rescisión del acuerdo debido a un incumplimiento del contrato por parte del cliente.</p>
+        <h2>Artículo 9. Duración y terminación</h2>
+        <p>9.1 Este acuerdo entra en vigor en el momento en que usted utiliza el servicio por primera vez y permanecerá en vigor por un periodo de tiempo indefinido.</p>
+        <p>9.2 Si el acuerdo es una suscripción de Webador facturada de manera anual, se prorrogará automáticamente por un período de un año, a menos que haya sido rescindido prematuramente por escrito por una de las dos partes dentro del período de cancelación de 1 mes para la renovación automática.</p>
+        <p>9.3 Si el acuerdo es una suscripción de Webador facturada de manera mensual, se renovará automáticamente cada mes a menos que haya sido cancelado a tiempo y por escrito por una de las partes. Se aplica un periodo de cancelación de un mes.</p>
+        <p>9.4 Tras la finalización del acuerdo como resultado de la cancelación, Webador podrá cancelar inmediatamente las funcionalidades puestas a disposición como parte de una suscripción de pago. El cliente podrá seguir utilizando el servicio gratuito de Webador si lo desea.</p>
+        <p>9.5 Los consumidores tienen derecho a desistir de su contrato de suscripción si lo solicitan por correo electrónico en un plazo de 14 días a partir de la fecha de compra, según lo dispuesto en la legislación aplicable en materia de protección de los consumidores. Sin embargo, al registrar un nombre de dominio gratuito como parte de tu suscripción o al conectar un dominio personalizado, reconoces y aceptas que empecemos a prestarte servicios inmediatamente, y renuncias expresamente a tu derecho de desistimiento de acuerdo con la legislación de la UE en materia de consumo y otras normativas locales. Esta renuncia es efectiva desde el momento en que registras tu nombre de dominio gratuito.</p>
+        <p>9.6 Los registros adicionales de nombres de dominio no son reembolsables una vez iniciado el proceso de registro, ya que el registrador nos cobra inmediatamente.</p>
+        <p>9.7 Las suscripciones de empresa a empresa (B2B) no son reembolsables bajo ninguna circunstancia.</p>
+        <h2>Artículo 10. Enmiendas</h2>
+        <p>10.1 Webador se reserva el derecho de modificar estos términos y condiciones, así como sus precios. Cualquier cambio de este tipo entrará en vigor en el siguiente ciclo de facturación (como se define en la cláusula 5.2).</p>
+        <p>10.2 Webador anunciará cualquier cambio o adición a su servicio al menos treinta días antes de que dichos cambios entren en vigor.</p>
+        <p>10.3 Si no desea aceptar una modificación o adición, es libre de cancelar el acuerdo hasta la fecha en que éste entre en vigor. El uso del servicio después de la fecha de entrada en vigor implica la aceptación de los términos y condiciones modificados o complementados.</p>
+        <h2>Artículo 11. Observaciones</h2>
+        <p>11.1 Este acuerdo está sujeto a la legislación neerlandesa.</p>
+        <p>11.2 En la medida en que el derecho imperativo no disponga otro asunto, todos los litigios relativos a Webador están sujetos a la jurisdicción del tribunal neerlandés autorizado para el distrito en el que Webador está establecido.</p>
+        <p>11.3 Se supone que la versión actual de cualquier comunicación o información almacenada por Webador es correcta, a menos que se demuestre lo contrario.</p>
+        <p>11.4 La invalidación de cualquiera de las disposiciones de estos Términos de uso no tendrá ningún efecto sobre la validez de los Términos de uso en su conjunto. En ese caso, las partes añadirán una o varias disposiciones que incorporarán la intención de la disposición original en la medida en que esto sea legalmente posible.</p>
+        <p>11.5 Webador se reserva el derecho de transferir sus derechos y obligaciones en virtud del acuerdo a un tercero que se haga cargo de Webador o de las operaciones comerciales pertinentes que le pertenecen.</p>
+        <h2>Artículo 12. Definiciones de los términos utilizados</h2>
+        <p><strong>Webador</strong>: Nombre comercial de JouwWeb B.V. con sede en Eindhoven (Países Bajos), en la calle Torenallee 20, código postal 5617 BC, registrada en la Cámara de Comercio con el número de expediente 73261505. Número de IVA: NL859426580B01</p>
+        <p>Las siguientes definiciones se aplican en estas condiciones:</p>
+        <p><strong>Suscripción</strong>: es el acuerdo en el que una o varias de las partes se comprometen a realizar servicios de manera continuada o reiterada durante un periodo de tiempo determinado (por ejemplo, un contrato de 12 meses).</p>
+        <p><strong>Cliente</strong>: la persona física o jurídica con la que Webador ha celebrado un Acuerdo. También se refiere a la persona que negocia o está negociando con Webador, así como a su(s) representante(s), representante(s) autorizado(s), sucesor(es) legal(es) y herederos.</p>
+        <p><strong>Servicios</strong>: los productos y/o servicios que Webador proporcionará al cliente según lo descrito en el acuerdo.</p>
+        <p><strong>Materiales</strong>: todos los trabajos, tales como páginas web y aplicaciones (web), software, estilos, logotipos, carpetas, folletos, rótulos, anuncios, planes de marketing y/o comunicación, conceptos, imágenes, textos, bocetos, documentación, asesoramiento, informes y otros productos, así como el material preparatorio de los mismos y (codificados o no) los archivos o soportes de datos en los que se encuentran dichos materiales.</p>
+        <p><strong>Acuerdo</strong>: cualquier acuerdo entre Webador y el cliente en base al cual Webador presta servicios al cliente.</p>
+        <a id="data-processing-agreement"><a id="acuerdo de tratamiento de datos"></a><a id="verwerkersovereenkomst"></a>
+        <p><strong>Por escrito</strong>: además de los documentos en papel, las comunicaciones por correo electrónico y fax, siempre que la identidad del remitente y la integridad del mensaje estén suficientemente establecidas.</p>
+        <hr>
+        <h2>Apéndice 1. Acuerdo de procesamiento de datos</h2>
+        <p>El presente acuerdo de procesamiento se aplica a todas las formas de procesamiento de datos personales que JouwWeb B.V., registrada en la Cámara de Comercio con el número 73261505, (en adelante: procesador) realiza en beneficio de una contraparte a la que presta servicios (en adelante: controlador) y forma parte integral de los Términos y Condiciones que se aplican cuando se adquieren dichos servicios de Webador.</p>
+        <h3>Artículo 1. Objetivos del tratamiento</h3>
+        <p>1.1 El encargado del tratamiento se compromete a tratar los datos personales por cuenta del responsable del tratamiento de acuerdo con las condiciones establecidas en el presente acuerdo de tratamiento. El tratamiento se ejecutará exclusivamente en el marco de los servicios prestados por el Procesador al Controlador del Procesamiento, a través de la página web de Webador, donde el Controlador del Procesamiento utiliza la plataforma del Procesador para el alojamiento y la gestión de la página web o de la tienda web, incluyendo el procesamiento de cualquier pedido y pago de productos o servicios ofrecidos por el Controlador del Procesamiento, el alojamiento de correo electrónico y los servicios online asociados en la &lsquo;nube&lsquo;&nbsp; y cualquier objetivo que esté relacionado con esto o que se determine con una aprobación posterior.</p>
+        <p>1.2 El Responsable del Tratamiento informará al Encargado del Tratamiento de los objetivos del tratamiento en la medida en que éstos no hayan sido ya comunicados en el presente Acuerdo. El encargado del tratamiento podrá utilizar los datos personales para fines de control de calidad, como la realización de investigaciones científicas o estadísticas sobre la calidad de sus servicios.</p>
+        <p>1.3 Todos los datos personales tratados por cuenta del Responsable del Tratamiento seguirán siendo propiedad del Responsable del Tratamiento y/o de los interesados correspondientes.</p>
+        <h3>Artículo 2. Obligaciones del procesador</h3>
+        <p>2.1 En lo que respecta a las operaciones de tratamiento mencionadas en el artículo 1, el encargado del tratamiento garantizará el cumplimiento de las leyes y reglamentos aplicables, incluyendo al menos las leyes y reglamentos que rigen la protección de los datos personales, como el RGPD.</p>
+        <p>2.2 El encargado del tratamiento proporcionará al responsable del tratamiento, sin demora y a petición de éste, los detalles relativos a las medidas que ha adoptado para cumplir sus obligaciones en virtud del presente acuerdo de tratamiento de datos.</p>
+        <p>2.3 Las obligaciones del Encargado del Tratamiento que se derivan del presente Acuerdo de Tratamiento de Datos se aplican también a cualquier persona que trate datos personales bajo la autoridad del Encargado del Tratamiento, incluidos, entre otros, los empleados, en el sentido más amplio de la palabra.</p>
+        <p>2.4 El encargado del tratamiento informará inmediatamente al responsable del tratamiento si considera que las instrucciones del responsable del tratamiento entran en conflicto con la legislación mencionada en la cláusula 2.1.</p>
+        <p>2.5 El encargado del tratamiento asistirá al responsable del tratamiento, en la medida en que esté en su mano, en la realización de evaluaciones de impacto sobre la protección de datos (PIA&rsquo;s). </p>
+        <p>2.6 Conforme al artículo 30 del RGPD, el procesador mantendrá un registro de todas las categorías de actividades de procesamiento que llevan a cabo para el controlador en virtud del presente acuerdo. Bajo petición, el encargado del tratamiento facilitará al responsable del tratamiento el acceso a dicho registro.</p>
+        <h3>Artículo 3. Transmisión de datos personales</h3>
+        <p>3.1 El procesador puede procesar datos personales en países de la Unión Europea. Además, el procesador también puede transferir datos personales a un país fuera de la Unión Europea, siempre que ese país garantice un nivel de protección adecuado y que cumpla con las demás obligaciones que le imponen el presente acuerdo y la Ley de Protección de Datos Personales.</p>
+        <h3>Artículo 4. Asignación de responsabilidades</h3>
+        <p>4.1 El encargado del tratamiento pondrá a disposición del responsable del tratamiento, recursos informáticos para los fines mencionados. El propio encargado del tratamiento actuará únicamente sobre la base de acuerdos independientes.</p>
+        <p>4.2 El encargado del tratamiento es el único responsable del tratamiento de los datos personales en virtud del presente contrato, de acuerdo con las instrucciones del responsable del tratamiento y bajo la responsabilidad (última) del responsable del tratamiento. El encargado del tratamiento no es explícitamente responsable de otros tratamientos de datos personales, incluidos, entre otros, la recogida de los datos personales por parte del responsable del tratamiento, el tratamiento con fines no comunicados por el responsable del tratamiento al encargado del tratamiento, y el tratamiento por parte de terceros y/o con otros fines.</p>
+        <p>4.3 El responsable del tratamiento garantiza que el contenido, el uso y las instrucciones para el tratamiento de los datos personales a los que se refiere el presente acuerdo no son ilegales ni infringen los derechos de terceros.</p>
+        <h3>Artículo 5. Contratación de terceros o subcontratistas</h3>
+        <p>5.1 El Responsable del Tratamiento permite al Encargado del Tratamiento contratar a terceros para el tratamiento de datos personales basado en el presente acuerdo, siempre que se respete debidamente la legislación aplicable en materia de privacidad &nbsp; A petición del responsable del tratamiento y en un plazo de tiempo razonable, se facilitará una descripción de los terceros contratados.</p>
+        <p>5.2 El Encargado del Tratamiento se asegurará en todo caso de que dichos terceros estén obligados a aceptar las mismas obligaciones que se acuerdan entre el Responsable del Tratamiento y el Encargado.</p>
+        <p>5.3 El Procesador es responsable del pleno cumplimiento por parte de cualquier tercero de las obligaciones contempladas en el presente acuerdo y es responsable de los daños y perjuicios derivados de los errores cometidos por dichos terceros como si el procesador hubiera cometido dichos errores por sí mismo.</p>
+        <h3>Artículo 6. Seguridad</h3>
+        <p>6.1 El Encargado del Tratamiento se esforzará por adoptar las medidas técnicas y organizativas adecuadas contra la pérdida o cualquier forma de tratamiento ilícito (como la revelación, el deterioro, la alteración o la divulgación no autorizada de datos personales) en relación con el tratamiento de datos personales en virtud del presente acuerdo.</p>
+        <p>6.2 El Encargado del Tratamiento no garantiza que dichas medidas de seguridad sean eficaces en todas las circunstancias. El encargado del tratamiento se esforzará por garantizar que las medidas de seguridad sean de un nivel razonable, teniendo en cuenta el estado de la técnica, la sensibilidad de los datos personales y los costes relacionados con dichas medidas de seguridad.</p>
+        <p>6.3 El Responsable del Tratamiento sólo pondrá los datos personales a disposición del encargado del tratamiento si ha garantizado que se han tomado las medidas de seguridad requeridas. El responsable del tratamiento es responsable del cumplimiento de las medidas acordadas por las partes.</p>
+        <h3>Artículo 7. Obligación de notificación</h3>
+        <p>7.1 El Responsable del Tratamiento es responsable en todo momento de notificar al supervisor y/o a los interesados las violaciones de la seguridad y/o de los datos (es decir, una violación de la seguridad de los datos personales que conlleva un riesgo de consecuencias negativas o tiene efectos adversos para la protección de los datos personales). Para facilitar el cumplimiento de esta obligación legal por parte del responsable del tratamiento, éste debe informar al responsable del tratamiento de una violación de la seguridad y/o de los datos en un plazo de tiempo razonable.</p>
+        <p>7.2 Sólo deben notificarse las infracciones que ya se hayan producido y que tengan un impacto significativo.</p>
+        <p>7.3 La obligación de informar incluye, en cualquier caso, el deber de informar sobre el hecho de que se ha producido una fuga, incluyendo los detalles relativos a: </p>
+        <ul>
+            <li>La naturaleza de la violación de los datos personales, especificando, en la medida de lo posible, las categorías de interesados y de datos personales afectados y, aproximadamente, el número de interesados y de registros de datos personales afectados;</li>
+            <li>El nombre y los datos de la persona de contacto de la que se puede obtener más información;</li>
+            <li>las probables consecuencias de la violación de los datos personales;</li>
+            <li>Las medidas propuestas o adoptadas por el encargado del tratamiento para hacer frente a la violación de los datos personales, incluidas, en su caso, las medidas para limitar sus efectos negativos.</li>
+        </ul>
+        <p>7.4 El encargado del tratamiento documentará las violaciones de los datos de conformidad con el artículo 33.5 del RGPD, incluidos los hechos relativos a la violación de los datos personales, las consecuencias de la misma y las medidas correctoras adoptadas.</p>
+        <h3>Artículo 8. Tratamiento de las solicitudes de las partes implicadas</h3>
+        <p>8.1 En caso de que un interesado presente una solicitud al encargado del tratamiento para ejercer sus derechos legales conforme a los artículos 15 a 22 del RGPD, el encargado del tratamiento tramitará él mismo dicha solicitud e informará de ello al responsable del tratamiento.</p>
+        <p>8.2 El encargado del tratamiento podrá imputar al responsable del tratamiento el coste de la tramitación de la solicitud.</p>
+        <h3>Articulo 9. Confidencialidad</h3>
+        <p>9.1 Todos los datos personales que el encargado del tratamiento reciba del responsable del tratamiento y/o que recopile en el marco del presente contrato están sujetos al deber de confidencialidad frente a terceros. El encargado del tratamiento no utilizará esta información para ningún otro fin que no sea aquel para el que se obtuvo, incluso si dicha información está formada de tal manera que no se pueda localizar a los interesados.</p>
+        <p>9.2 Este deber de confidencialidad no se aplicará en el caso de que el Responsable del Tratamiento haya autorizado expresamente el suministro de dicha información a terceros, cuando dicho suministro de la información a terceros sea razonablemente necesario en vista de la naturaleza de las instrucciones y de la aplicación del presente Acuerdo, o si existe una obligación legal de poner la información a disposición de un tercero.</p>
+        <h3>Artículo 10. Auditoría</h3>
+        <p>10.1 El responsable del tratamiento se reserva el derecho de encargar a un tercero independiente y obligado a la confidencialidad la realización de auditorías para garantizar el cumplimiento de las normas generales relativas al tratamiento de datos personales, el uso indebido de los datos personales por parte de los empleados del responsable del tratamiento y todo lo directamente relacionado con ello.</p>
+        <p>10.2 La auditoría sólo podrá llevarse a cabo cuando existan motivos concretos para sospechar el uso indebido de datos personales.</p>
+        <p>10.3 El encargado de la tramitación cooperará con la auditoría y pondrá a su disposición, lo antes posible, toda la información razonablemente pertinente para la misma, incluidos los datos de apoyo, como los registros del sistema, y el personal.</p>
+        <p>10.4 Las conclusiones como resultado de la auditoría serán evaluadas por el Procesador y podrán, a su única discreción, ser procesadas por el Procesador de la manera que considere conveniente.</p>
+        <p>10.5 El interventor correrá con los gastos de la auditoría.</p>
+        <h3>Artículo 11. Asignación de responsabilidades</h3>
+        <p>11.1 Para la responsabilidad de las partes por daños y perjuicios resultantes de una deficiencia atribuible en la ejecución del Acuerdo de Procesamiento, o por agravio &nbsp o de otra manera, se aplicará la regulación relativa a la responsabilidad en los Términos y Condiciones Generales del Procesador.</p>
+        <h3>Artículo 12. Duración y terminación</h3>
+        <p>12.1 El presente Acuerdo se establece a partir de la aceptación del Responsable del Tratamiento y continuará durante el tiempo que dure el tratamiento de los datos personales del Responsable del Tratamiento por parte del Procesador.</p>
+        <p>12.2 Tras la finalización del presente acuerdo por cualquier motivo y de cualquier manera, el procesador destruirá todos los datos personales recibidos del controlador en un plazo de seis meses.</p>
+        <p>12.3 El procesador se reserva el derecho de revisar este acuerdo en cualquier momento y se compromete a informar al controlador de cualquier cambio realizado. El responsable del tratamiento podrá rescindir inmediatamente el acuerdo si no está de acuerdo con dichos cambios.</p>
+    </div>
+</div>
+
+    <footer class="section footer hidden-print">
+        <div class="container text-left">
+            <div class="row">
+                <div class="col-md-8 col-lg-9">
+                    <div class="footer-container accordion accordion--mobile-only">
+                        <details open class="accordion__item footer-list">
+                            <summary class="accordion__heading">
+                                <h4 class="footer-list__heading">
+                                    Empresa                                    <i class="icon-down-open"></i>
+                                </h4>
+                            </summary>
+                            <div class="accordion__content">
+                                <ul class="footer-list__links">
+                                    <li><a href="about.html">Acerca de Webador</a></li>
+                                    <li>
+                                        <button
+                                            type="button"
+                                            class="text-button"
+                                            data-toggle="tooltip"
+                                            data-container="body"
+                                            data-tooltip-title="Nuestros servidores utilizan energía 100 % sostenible, por lo que tu página web es totalmente neutra en emisiones de carbono."
+                                        >
+                                            100 % sostenible                                            <span class="icon icon-leaf" style="color: #7bb035; margin-left: 0.25em;"></span>
+                                        </button>
+                                    </li>
+                                    <li><a href="reviews.html">Opiniones</a></li>
+                                    <li><a href="https://jobs.jouwweb.nl/l/en">Empleo 🚀</a></li>
+                                                                            <li><a href="affiliates.html">Afiliados</a></li>
+                                                                        <li><a href="privacy.html">Privacidad</a></li>
+                                    <li><a href="privacy.html#cookie-consent-management">Cookies</a></li>
+                                    <li><a href="terms-and-conditions.html">Condiciones</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </details>
+                        <details open class="accordion__item footer-list">
+                            <summary class="accordion__heading">
+                                <h4 class="footer-list__heading">
+                                    Producto                                    <i class="icon-down-open"></i>
+                                </h4>
+                            </summary>
+                            <div class="accordion__content">
+                                <ul class="footer-list__links" id="footer-product">
+                                    <li><a href="index.html">Crea tu página web</a></li>
+                                    <li><a href="create-online-store.html">Crear negocio online</a></li>
+                                    <li><a href="create-blog.html">Crear un blog</a></li>
+                                    <li><a href="website-builder.html">Crear página web con IA <i class="icon-magic-wand text-primary"></i></a></li>
+                                    <li><a href="domains.html">Página web con nombre de dominio</a></li>
+                                    <li><a href="own-email-domain.html">Dirección de correo electrónico con tu dominio</a></li>
+                                    <li><a href="designs.html">Plantillas</a></li>
+                                </ul>
+                            </div>
+                        </details>
+                        <details open class="accordion__item footer-list">
+                            <summary class="accordion__heading">
+                                <h4 class="footer-list__heading">
+                                    Comunidad                                    <i class="icon-down-open"></i>
+                                </h4>
+                            </summary>
+                            <div class="accordion__content">
+                                <ul class="footer-list__links">
+                                    <li><a href="https://www.facebook.com/webador" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCrC3lhdHjeFiYgjoxrpt0Hw" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                                    <li><a href="https://www.instagram.com/webador" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                                    <li><a href="https://www.linkedin.com/company/webador" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                                </ul>
+                            </div>
+                        </details>
+                        <details open class="accordion__item footer-list">
+                            <summary class="accordion__heading">
+                                <h4 class="footer-list__heading">
+                                    Soporte técnico                                    <i class="icon-down-open"></i>
+                                </h4>
+                            </summary>
+                            <div class="accordion__content">
+                                <ul class="footer-list__links">
+                                    <li><a href="https://help.webador.com/hc/es" target="_blank" rel="noopener">Centro de ayuda</a></li>
+                                                                                                                <li><a href="https://www.webador.es/blog?utm_source=webador&utm_medium=landing&utm_campaign=footer">Blog</a></li>
+                                                                        <li><a href="contact.html">Contacto</a></li>
+                                </ul>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mt-4 mt-md-0 text-center text-md-left">
+                    <p>
+                        <span class="footer-copy">&copy;</span>
+                        Webador<br />
+
+                        Todos los derechos reservados                    </p>
+
+                    <button
+    type="button"
+    class="country-switch-button js-country-switch-button"
+>
+    <span class="globe-icon">🌎</span> Español (global)    <span class="icon icon-down-open"></span>
+</button>
+<div class="popover popover--country-switch js-country-switch-popover hidden">
+    <div class="popper__arrow"></div>
+    <div class="popover-content">
+        <ul class="country-switch-list">
+                            <li>
+                    <a
+                        href="https://www.webador.dk/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-dk"></span> Dansk                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.de/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-de"></span> Deutsch (Deutschland)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.ch/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-ch"></span> Deutsch (Schweiz)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.at/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-at"></span> Deutsch (Österreich)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.com.au/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-au"></span> English (Australia)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.ca/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-ca"></span> English (Canada)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.ie/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-ie"></span> English (Ireland)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.nz/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-nz"></span> English (New Zealand)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.co.uk/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-gb"></span> English (United Kingdom)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="../www.webador.com/condiciones-generales.html"
+                                            >
+                        <span class="globe-icon">🌎</span> English (global)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.es/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-es"></span> Español (España)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.mx/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-mx"></span> Español (México)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="terms-and-conditions.html"
+                                            >
+                        <span class="globe-icon">🌎</span> Español (global)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.be/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-be"></span> Français (Belgique)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://fr.webador.ca/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-ca"></span> Français (Canada)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.fr/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-fr"></span> Français (France)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://fr.webador.ch/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-ch"></span> Français (Suisse)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.it/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-it"></span> Italiano                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.jouwweb.be/condiciones-generales"
+                                                    data-brand-message
+                                            >
+                        <span class="flag-icon flag-icon-be"></span> Nederlands (België)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.jouwweb.nl/condiciones-generales"
+                                                    data-brand-message
+                                            >
+                        <span class="flag-icon flag-icon-nl"></span> Nederlands (Nederland)                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.no/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-no"></span> Norsk bokmål                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.pl/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-pl"></span> Polski                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.fi/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-fi"></span> Suomi                    </a>
+                </li>
+                            <li>
+                    <a
+                        href="https://www.webador.se/condiciones-generales"
+                                            >
+                        <span class="flag-icon flag-icon-se"></span> Svenska                    </a>
+                </li>
+                    </ul>
+        <div class="brand-message">
+            <p>En los Países Bajos, Webador se llama JouwWeb. Vamos a redirigirte a la página de JouwWeb.</p>
+            <div class="brand-message__buttons">
+                <button class="btn btn-success" type="button" data-action="follow-url">Aceptar</button>
+                <button class="btn btn-darker" type="button" data-action="close">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+                    <ul class="footer-social-icons">
+    <li><a title="Facebook" href="https://www.facebook.com/webador" target="_blank" rel="noopener noreferrer"><span class="icon icon-facebook"></span></a></li>
+    <li><a title="YouTube" href="https://www.youtube.com/channel/UCrC3lhdHjeFiYgjoxrpt0Hw" target="_blank" rel="noopener noreferrer"><span class="icon icon-youtube-play"></span></a></li>
+    <li><a title="Instagram" href="https://www.instagram.com/webador" target="_blank" rel="noopener noreferrer"><span class="icon icon-instagram"></span></a></li>
+    <li><a title="Linkedin" href="https://www.linkedin.com/company/webador" target="_blank" rel="noopener noreferrer"><span class="icon icon-linkedin"></span></a></li>
+</ul>
+                </div>
+            </div>
+        </div>
+
+                <img src="https://assets.jwwb.nl/assets/img/home/deloitte-fast-50-1x.png?bust=f1da8f3dd1975a4d0330" srcset="https://assets.jwwb.nl/assets/img/home/deloitte-fast-50-1x.png?bust=f1da8f3dd1975a4d0330 1x, https://assets.jwwb.nl/assets/img/home/deloitte-fast-50-2x.png?bust=ba8acc930f29883e1eaa 2x" alt="" class="mt-4 no-load hidden-md hidden-lg" loading="lazy" width="331" height="50">    </footer>
+<div
+    id="modal-signup"
+    class="signup-modal signup-modal--mobile-exp modal fade bg-dark-white"
+    tabindex="-1"
+    data-backdrop="static"
+    style="cursor: default;"
+>
+    <button
+        class="modal-close"
+        data-dismiss="modal"
+    >
+        <span class="icon-cancel"></span>
+    </button>
+    <div class="modal-content">
+        
+<div
+    class="signup-form"
+    data-jw-controller="common--analytics--track" data-common--analytics--track-section-name-value="signup-modal">
+    <div style="display: flex; flex-grow: 1; position: relative;">
+        <div class="signup-form__content">
+            <div class="js-progress-bar progress-bar progress-bar--with-checks"></div>
+            <form method="post" name="register" autocomplete="off" class="js-register-form" novalidate data-type="register" action="https://es.webador.com/robot-party">            
+            <p class="h6 font-weight-normal text--muted mb-5 text-center" style="margin-top: -1em;">
+                Crea una cuenta en pocos pasos            </p>
+            <div class="multi-step-data">
+                <div class="multi-step-input multi-step-input--category" data-step-name="category">
+                    <p class="h3 mt-0">
+                        <strong>
+                            Elige el tipo de página web que quieres construir                        </strong>
+                        <span class="text--muted h6 font-weight-normal">(opcional)</span>
+                    </p>
+                    <p class="dimmed-text mb-5">Tu elección no es fija. Nos ayuda a brindarte una mejor experiencia.</p>
+                    <div class="website-category-select mb-5">
+                        <div class="panel panel-default">
+                            <label class="panel-heading panel-heading--clickable">
+                                <img alt="" width="120" height="70" class="no-load" src="https://assets.jwwb.nl/assets/img/multi-step-signup/icon-website.svg?bust=1a710810b0dfaa0ad80d">
+                                <p class="mt-4 mb-0 text-center px-4">
+                                        <input type="radio" name="category" value="website">
+                                    Página web                                </p>
+                            </label>
+                        </div>
+                        <div class="panel panel-default ">
+                            <label class="panel-heading panel-heading--clickable">
+                                <img alt="" width="120" height="70" class="no-load" src="https://assets.jwwb.nl/assets/img/multi-step-signup/icon-webshop.svg?bust=8d3075f1d7ef421d75bb">
+                                <p class="mt-4 mb-0 text-center px-4">
+                                    <input type="radio" name="category" value="webshop" >
+                                    Negocio online                                </p>
+                            </label>
+                        </div>
+                        <div class="panel panel-default ">
+                            <label class="panel-heading panel-heading--clickable">
+                                <img alt="" width="120" height="70" class="no-load" src="https://assets.jwwb.nl/assets/img/multi-step-signup/icon-blog.svg?bust=c78ae2bd4dd16592de1a">
+                                <p class="mt-4 mb-0 text-center px-4">
+                                    <input type="radio" name="category" value="blog" >
+                                    Blog                                </p>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="multi-step-input multi-step-input--website" style="position: relative;" data-step-name="title">
+                    <p class="h3 mt-0">
+                        <strong class="multi-step-input__label">
+                                Añade el título de tu página web                        </strong>
+                        <span class="text--muted h6 font-weight-normal">(opcional)</span>
+                    </p>
+                    <p class="dimmed-text mb-5">
+                        Por ejemplo, el nombre de tu empresa. Puedes cambiar fácilmente el nombre de tu página web más adelante.                    </p>
+                    <div class="floating-label "><input type="text" name="website" class="signup-input" placeholder="T&#xED;tulo&#x20;de&#x20;la&#x20;p&#xE1;gina&#x20;web" autocomplete="organization" spellcheck="false" maxlength="100" id="jwFormXHHif6_website" value=""><label for="jwFormXHHif6_website">Título de la página web</label></div>                </div>
+                <div class="multi-step-input multi-step-input--credentials" data-step-name="credentials">
+                    
+                    <div class="email-signup">
+                        <div class="credentials-legend">
+                            <p class="h3 mt-0"><strong>Correo electrónico y contraseña</strong></p>
+                            <p class="dimmed-text mb-5">
+                                Introduce tu dirección de correo electrónico y elige una contraseña.                            </p>
+                        </div>
+                        <div class="floating-label "><input type="email" name="email" required="required" class="signup-input" placeholder="Direcci&#xF3;n&#x20;de&#x20;correo&#x20;electr&#xF3;nico" autocomplete="email" id="jwFormbxcMYg_email" value=""><label for="jwFormbxcMYg_email">Dirección de correo electrónico</label></div><div class="floating-label floating-label--has-icon"><input type="password" name="password" required="required" minlength="6" class="signup-input" placeholder="Contrase&#xF1;a" autocomplete="new-password" id="jwFormPZ7sSD_password" value=""><label for="jwFormPZ7sSD_password">Contraseña</label>
+                <button
+                    type="button"
+                    class="floating-label__icon-button js-show-password-button"
+                >
+                    <i class="icon-eye js-show-password-button__icon-hidden"></i>
+                    <i class="icon-eye-slash js-show-password-button__icon-visible hidden"></i>
+                </button>
+            </div><div class="password-strength password-strength--empty">
+    <div class="password-strength__bar-container">
+        <div class="password-strength__bar"></div>
+        <div class="password-strength__bar"></div>
+        <div class="password-strength__bar"></div>
+        <div class="password-strength__bar"></div>
+    </div>
+    <div class="password-strength__label-container">
+        <div class="password-strength__label">
+            Contraseña débil        </div>
+        <div class="password-strength__label">Contraseña razonable</div>
+        <div class="password-strength__label">Contraseña segura</div>
+        <div class="password-strength__label">Contraseña excelente</div>
+    </div>
+</div>
+                    </div>
+
+                                    </div>
+            </div>
+            <input type="hidden" name="webshop" id="jwFormTCPQwo_webshop" value="">            
+            <div class="actions">
+                <button
+                    class="btn btn-lg btn-success actions__button"
+                    type="submit"
+                    data-jw-action="click-&gt;common--analytics--track#trackEvent" data-common--analytics--track-name-param="button_click" data-common--analytics--track-event-action-param="get-started" data-common--analytics--track-event-label-param="Empezar ahora" data-common--analytics--track-event-value-param="null" data-common--analytics--track-parameters-param="[]"                >
+                    Empezar ahora                </button>
+
+                <button
+                    class="btn btn-success btn-primary actions__button"
+                    type="button"
+                    data-step-button
+                    data-step-to-show="nextStep"
+                    data-jw-action="click-&gt;common--analytics--track#trackEvent" data-common--analytics--track-name-param="button_click" data-common--analytics--track-event-action-param="next-step" data-common--analytics--track-event-label-param="Siguiente paso" data-common--analytics--track-event-value-param="null" data-common--analytics--track-parameters-param="[]"                >
+                                            Siguiente paso                                        <span class="text-with-arrow__arrow icon-right-open"></span>
+                </button>
+
+                <button
+                    type="button"
+                    class="actions__back-button text-button text-with-arrow"
+                    data-step-button
+                    data-step-to-show="prevStep"
+                    data-jw-action="click-&gt;common--analytics--track#trackEvent" data-common--analytics--track-name-param="button_click" data-common--analytics--track-event-action-param="previous-step" data-common--analytics--track-event-label-param="Paso anterior" data-common--analytics--track-event-value-param="null" data-common--analytics--track-parameters-param="[]"                >
+                    <span class="text-with-arrow__arrow icon-left-open"></span>
+                    Paso anterior                </button>
+            </div>
+                            <div class="signup-form__trust-line">
+                    <img class="no-load" alt="" src="https://assets.jwwb.nl/assets/img/trustpilot-stars-4.5.png?bust=fc6c6a93958e6fb8bed3" width="260" height="50">                    <span>
+                        <strong>4.4</strong>
+                        <span class="signup-form__trust-line-separator">&middot;</span>
+                        <strong>20,486+</strong> reseñas                    </span>
+                    <img
+                        class="own-dimensions no-load"
+                        alt="Logo de Trustpilot"
+                        src="https://assets.jwwb.nl/assets/img/trustpilot.png?bust=bd9a57a717ea9c23ab00"
+                        height="16"
+                    >
+                </div>
+                        <input type="hidden" name="backendKey" id="jwFormpTc47N_backendKey" value="webador-com-es">                            <input type="hidden" name="experiments" id="jwFormf6cbcm_experiments" value="">                        </form>        </div>
+    </div>
+    <div
+        class="signup-form__usps"
+        style="--background-image: url(https://assets.jwwb.nl/assets/brand/webador/background/frontpage-background-square.webp?bust=eb6b4bece51459d8dc3c);"
+    >
+        <img src="https://assets.jwwb.nl/assets/brand/webador/logo/logo-dark.svg?bust=787b9257702174e031fb" alt="Webador" class="no-load signup-form__usps-logo" width="150" height="32">
+                <p class="h3">
+            <strong>
+                Regístrate gratis            </strong>
+        </p>
+        <ul class="list list-vertical list-unstyled">
+            <li>
+                <span class="icon icon-check"></span>
+                355,333 clientes satisfechos            </li>
+            <li>
+                <span class="icon icon-check"></span>
+                Optimizado para Google            </li>
+            <li>
+                <span class="icon icon-check"></span>
+                Incluye nombre de dominio <span class="label label-primary text-uppercase">.COM</span> personalizado            </li>
+            <li>
+                <span class="icon icon-check"></span>
+                Soporte técnico gratuito            </li>
+        </ul>
+    </div>
+</div>
+    </div>
+</div>
+        <script nonce="ba64ebd11830d6178bde4572651c1d08">window.JOUWWEB = window.JOUWWEB || {}; window.JOUWWEB.experiment = {"enrollments":{"aa-1":{"name":"aa-1","variant":"control","active":false,"activationSource":null},"black-friday-presentation":{"name":"black-friday-presentation","variant":"control","active":true,"activationSource":"homepage"},"pricing-webshop-toggle":{"name":"pricing-webshop-toggle","variant":"control","version":2,"active":false,"activationSource":null},"signup-step3-trust":{"name":"signup-step3-trust","variant":"on"}},"defaults":{"ai-new-subpage-flow":"balanced","general-template-replacement":"on","hide-monthly-confirmation-modal":"on","homepage-strip-shapes":"after-banner","landing-overall-improvements":"on","onboarding-chat":"on","onboarding-content-rating":"on","onboarding-hide-structure-step":"second","only-annual-discount-restart":"3months-50pct","pricing-section-equal-height":"on"}};</script>            </body>
+</html>

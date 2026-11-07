@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Webador webmail :: Welcome to Webador webmail</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0"><meta name="theme-color" content="#f4f4f4"><meta name="msapplication-navbutton-color" content="#f4f4f4">
+	<link rel="shortcut icon" href="skins/jw-elastic/images/jouwweb/favicon.ico%3Fs=1793918729">
+	<link rel="stylesheet" href="skins/elastic/deps/bootstrap.min.css%3Fs=1792392970.css">
+	
+		<link rel="stylesheet" href="skins/elastic/styles/styles.min.css%3Fs=1793918780.css">
+		
+	
+	
+		<script>
+		try {
+			if (document.cookie.indexOf('colorMode=dark') > -1
+				|| (document.cookie.indexOf('colorMode=light') === -1 && window.matchMedia('(prefers-color-scheme: dark)').matches)
+			) {
+				document.documentElement.className += ' dark-mode';
+			}
+		} catch (e) { }
+		</script>
+	
+<link rel="stylesheet" type="text/css" href="plugins/xframework/assets/styles/elastic.css%3Fs=1779089148.css"><link rel="stylesheet" type="text/css" href="plugins/jqueryui/themes/elastic/jquery-ui.min.css%3Fs=1792392966.css"><link rel="stylesheet" type="text/css" href="plugins/persistent_login/persistent_login.css%3Fs=1643531384.css"><script src="program/js/jquery.min.js%3Fs=1792392969"></script><script src="program/js/common.min.js%3Fs=1792392966"></script><script src="program/js/app.min.js%3Fs=1792392966"></script><script src="program/js/jstz.min.js%3Fs=1792392969"></script><script>
+/*
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) The Roundcube Dev Team
+
+        The JavaScript code in this page is free software: you can redistribute
+        it and/or modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation, either version 3 of
+        the License, or (at your option) any later version.
+
+        The code is distributed WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU GPL for more details.
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+*/
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","standard_windows":false,"locale":"en_US","devel_mode":null,"rcversion":10620,"cookie_domain":"","cookie_path":"/","cookie_secure":true,"dark_mode_support":true,"skin":"jw-elastic","blankpage":"skins/elastic/watermark.html","refresh_interval":60,"session_lifetime":3600,"action":"","comm_path":"/?_task=login","compose_extwin":false,"dateFormats":{"php":"Y-m-d","moment":"YYYY-MM-DD","datepicker":"yy-mm-dd","flatpickr":"Y-m-d"},"dmFormats":{"php":"m-d","moment":"MM-DD","datepicker":"mm-dd","flatpickr":"m-d"},"timeFormats":{"php":"H:i","moment":"HH:mm","datepicker":"HH:mm","flatpickr":"H:i"},"timezoneOffset":0,"xsidebarVisible":true,"xelastic":true,"xassets":["../xframework/assets/bower_components/js-cookie/src/js.cookie.js","../xframework/assets/scripts/framework.min.js","../xframework/assets/styles/elastic.css"],"xsignature_settings":{"name":"Sample name","position":"Sample position","organization":"Sample organization","name_separator":"","position_separator":", ","organization_separator":"","text_color":"#000","link_color":"#0066ff","font_family":"sans-serif","font_size":"medium","detail_layout":"column","detail_separator":" | ","detail_show_title":true,"detail_title_color":"#000","disclaimer":"","disclaimer_color":"#aaa","disclaimer_size":"small","disclaimer_in_plain_text":true,"social_icon_format":"png","social_icon_style":"round_flat","social_icon_size":"medium","social_icon_layout":"row","social_in_plain_text":true,"logo":"sample","logo_width":150,"logo_resizable":true,"logo_alt":"Sample organization","social_items":[{"name":"linkedin","link":"https://sample-url.com"},{"name":"facebook","link":"https://sample-url.com"},{"name":"x","link":"https://sample-url.com"},{"name":"instagram","link":"https://sample-url.com"}]},"date_format":"yy-mm-dd","date_format_localized":"YYYY-MM-DD","request_token":"lPLPZ0uKXVIXkxhSr0qJxdaPLnoRWb6z"});
+rcmail.add_label({"loading":"Loading...","servererror":"Server Error!","connerror":"Connection Error (Failed to reach the server)!","requesttimedout":"Request timed out","refreshing":"Refreshing...","windowopenerror":"The popup window was blocked!","uploadingmany":"Uploading files...","uploading":"Uploading file...","close":"Close","save":"Save","cancel":"Cancel","alerttitle":"Attention","confirmationtitle":"Are you sure...","delete":"Delete","continue":"Continue","ok":"OK","xframework.copy_to_clipboard":"Copy to clipboard","xframework.copied_to_clipboard":"Copied to clipboard.","xframework.cannot_copy_to_clipboard":"Cannot copy text to clipboard.","back":"Back","errortitle":"An error occurred!","options":"Options","plaintoggle":"Plain text","htmltoggle":"HTML","previous":"Previous","next":"Next","select":"Select","browse":"Browse","choosefile":"Choose file...","choosefiles":"Choose files...","persistent_login.ifpl_rememberme":"Keep me logged in","persistent_login.ifpl_rememberme_hint":"Do not use this function on public computers for security reasons."});
+rcmail.gui_container("loginfooter","login-footer");rcmail.gui_object('loginform', 'login-form');
+rcmail.gui_object('message', 'messagestack');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DQPXM4EXL6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  function getQueryParam(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+  }
+  let task = getQueryParam('_task');
+  let action = getQueryParam('_action');
+  let fullPath = "/" + (task ? task : "") + (action ? "/" + action : "");
+
+  gtag('js', new Date());
+  gtag(
+      'config', 
+      'G-DQPXM4EXL6',
+      {
+          send_page_view: false,
+      }
+  );
+  gtag('event', 'page_view', {
+        "page_path": fullPath,
+        "page_location": fullPath,
+        "task": getQueryParam('_task'),
+        "action": getQueryParam('_action')
+  });
+</script>
+<script type="module" src="plugins/xframework/assets/libraries/alpinejs/alpine.js%3Fs=1765193148"></script>
+<meta name="description" content="Webador webmail. Log in with your email address and password. Manage your Webador email from any browser on any device.">
+<script src="plugins/xframework/assets/bower_components/js-cookie/src/js.cookie.js%3Fs=1727776208"></script><script src="plugins/xframework/assets/scripts/framework.min.js%3Fs=1778671709"></script><script src="plugins/jqueryui/js/jquery-ui.min.js%3Fs=1792392966"></script><script src="plugins/persistent_login/persistent_login.js%3Fs=1643531384"></script>
+</head>
+<body class="xelastic task-login action-none">
+	
+		<div id="layout">
+	
+
+
+<h1 class="voice">Webador webmail Login</h1>
+
+<div id="layout-content" class="selected no-navbar" role="main">
+    <div class="jw jw-content jw-content--empty"></div>
+    <div class="jw jw-content jw-content--login-form">
+        <img src="skins/jw-elastic/images/webador/logo-square.svg%3Fs=1793918729" data-src-small="0" id="logo" alt="Logo" width="100">
+        <form id="login-form" name="login-form" method="post" class="propform" action="https://webmail.webador.com/?_task=login">
+<input type="hidden" name="_token" value="lPLPZ0uKXVIXkxhSr0qJxdaPLnoRWb6z">
+            <h2 style="font-weight: bold; margin-top: -25px;">Webador webmail</h2>
+            <input type="hidden" name="_task" value="login"><input type="hidden" name="_action" value="login"><input type="hidden" name="_timezone" id="rcmlogintz" value="_default_"><input type="hidden" name="_url" id="rcmloginurl" value=""><table><tbody><tr><td class="title"><label for="rcmloginuser">Email address</label></td><td class="input"><input name="_user" id="rcmloginuser" required size="40" autocapitalize="off" autocomplete="off" value="" type="text"></td></tr><tr><td class="title"><label for="rcmloginpwd">Password</label></td><td class="input"><input name="_pass" id="rcmloginpwd" required size="40" autocapitalize="off" autocomplete="off" type="password"></td></tr></tbody></table><p class="formbuttons"><button type="submit" id="rcmloginsubmit" class="button mainaction submit">Login</button></p>
+            <div>
+                <a href="../www.webador.com/v2/redirect-website/mailbox.html" target="_blank" class="support-link">
+                    Forgot password
+                </a>
+            </div>
+            <div id="login-footer" role="contentinfo">
+                
+                <a href="https://help.webador.com/hc/en-us/articles/29426735308177" target="_blank" class="support-link">Get support</a>
+                &nbsp;&bull;&nbsp; <a href="../webador.com/index.html" target="_blank" class="support-link">Build a website</a>
+                
+            </div>
+        </roundcube:form>
+    </div>
+    <div class="jw jw-content jw-content--link-to-guides" role="contentinfo">
+        <h3>
+    <strong>Configure email program</strong>
+</h3>
+<p>Ready to take control over your email? Configure an email program such as <strong>Gmail</strong>, <strong>Outlook</strong> or <strong>Apple Mail</strong> and get easy access to your inbox!</p>
+<p>Get emails and control your inbox on desktop and mobile.</p>
+<p>Configure easily with these instructions: <a href="https://help.webador.com/hc/en-us/articles/29426735308177">configure email</a></p>
+    </div>
+</div>
+
+<noscript>
+    <p class="noscriptwarning">Warning: This webmail service requires Javascript! In order to use it please enable Javascript in your browser's settings.</p>
+</noscript>
+
+
+</div>
+
+
+
+<div id="messagestack"></div>
+<script>
+$(function() {
+rcmail.init();
+});
+</script>
+
+
+
+<script src="skins/elastic/deps/bootstrap.bundle.min.js%3Fs=1792392970"></script>
+<script src="skins/elastic/ui.min.js%3Fs=1792392966"></script>
+
+</body>
+</html>

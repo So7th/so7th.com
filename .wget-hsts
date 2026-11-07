@@ -1,0 +1,9 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+www.webador.com	0	1	1794052580	63072000
+www.facebook.com	0	0	1794052422	15552000
+es.webador.com	0	1	1794052295	63072000
+www.webador.es	0	1	1794052294	63072000
+accounts.google.com	0	1	1794052424	31536000
+help.webador.com	0	1	1794052640	259200
